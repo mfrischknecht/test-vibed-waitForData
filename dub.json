@@ -1,0 +1,16 @@
+{
+	"name": "test",
+	"description": "A simple vibe.d server application.",
+	"copyright": "Copyright © 2015, manuel",
+	"authors": ["manuel"],
+	"dependencies": {
+		"vibe-d": "~>0.7.23",
+	},
+    "subConfigurations": {
+        "vibe-d": "libevent",
+    },
+	"versions": [
+        "VibeCustomMain",
+        "VibeLibeventDriver",
+    ]
+}
